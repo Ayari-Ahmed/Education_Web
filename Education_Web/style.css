@@ -1,0 +1,139 @@
+body{
+    background-color: #F8F0E5;
+}
+.NavBar{
+    background-color: #DAC0A3;
+    width: 100%;
+    height: 150px;
+    border-radius: 40px;
+    margin: 0px;
+}
+.But_Nav{
+    
+    font-size: 20px;
+    height: 100px;
+    border: none;
+    background-color: #DAC0A3;
+    border-radius: 0 0 30px 30px;
+    color: azure;
+}
+#L1{
+    
+    position: absolute;
+    left: 80%;
+}
+#L2{
+    position: absolute;
+    left: 74%;
+}
+
+#L1:hover{
+    background-color: #EADBC8;
+    padding: 10px;
+    height: 170px;
+    box-shadow: 0 12px 14px rgba(0, 0, 0, 0.2);
+}
+
+#L2:hover{
+    background-color: #EADBC8;
+    padding: 10px;
+    height: 170px;
+    box-shadow: 0 12px 14px rgba(0, 0, 0, 0.2);
+}
+
+#Logo{
+    border-radius: 40px;
+    width: 10%;
+}
+#Logo2{
+    width: 50%;
+}
+#Photo1{
+    
+    border-style: groove;
+    border-color: #221C17;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 20%;
+
+}
+#Photo2{
+    border-style: groove;
+    border-color: #221C17;
+    position: absolute;
+    top: 100%;
+    left: 75%;
+    width: 20%;
+
+}
+#myDiv2{
+    position: absolute;
+    top: 1100px;
+    left: -1px;
+    background-color: #221C17;
+    height: 800px;
+    width: 100%;
+    margin: 0px;
+    
+}
+
+
+
+#welcome-text-1 {
+    position: relative;
+    top: 80px;
+    left: 500px;
+    width: 70%;
+    padding: 20px;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    color: #666;
+    margin-bottom: 20px;
+    
+}
+#welcome-text-2 {
+    position: relative;    
+    width: 70%;
+    padding: 20px;
+    
+}
+
+.welcome-text h1 {
+    font-size: 45px;
+    color: #333;
+}
+
+#welcome-text-2 p {
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    color: #D7DAD8;
+    margin-bottom: 20px;
+}
+.Tab1{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+li{
+    list-style-type: none;
+}
+
+.Tab1 h3 {
+    color: #3e3d3d;
+    font-size: 25px;
+    padding: 10px 0;
+}
+.Tab1 p {
+    color: #858080;
+    font-size: 20px;
+} 
+.Tab1 a{
+    text-decoration: none;
+    color: #afabab;
+}
+.Tab1 a:hover{
+    color: rgb(255, 255, 255);
+}

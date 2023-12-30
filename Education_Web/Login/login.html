@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Connexion</title>
+  </head>
+  <body>
+    <br />
+    <br /><br />
+    <br />
+    <h1>Page de Connexion Pour les Étudiants</h1>
+    <img src="../src/logo3.png" alt="Logo" class="Log_3">
+    <a href="../main.html"><img src="../src/home.png" alt="Logo" class="Log_4"></a>
+    <form action="../Cours/Home.html" method="post">
+    <div class="myDiv">
+      <br />
+      <i> <h1>Bienvenue sur ScholarNet</h1></i>
+      <p>Connectez-vous en tant qu'étudiant pour accéder à votre compte.</p>
+      <table id="tab1">
+        <tr>
+          <td id="t1">
+            <p>Email :</p>
+          </td>
+          <td>
+            <input type="email" name="Nom" id="Nom" class="Input1" pattern="[a-zA-Z0-9_-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}"            placeholder="      exepmle@domaine.xy" required />
+          </td>
+        </tr>
+        <tr>
+          <td id="t1">
+            <p>Password :</p>
+          </td>
+          <td>
+            <input type="password" name="password" id="password"  maxlength="20"  placeholder="      ********" required />
+          </td>
+        </tr> 
+        <tr>
+            <td align="right">
+              <label for="Rem">
+                <input type="checkbox" id="Rem" name="Rem"> 
+              </label>
+            </td>
+            <td>
+              <label for="Rem">
+                  <p align="left">Se souvenir de moi</p>
+              </label>
+            </td>
+          </tr>
+      </table>
+
+      <button type="submit" >Se connecter</button>
+      <button type="reset">Annuler</button>
+      <br><br><br><br><br>
+      <label for="Register">
+      <p>vous n'avez pas un compte ?!</p>
+    </label>
+    <label for="Register">
+      <a href="Register.html" class="lien">Crée un Compte !!</a>
+    </label>
+    </div>
+</form>
+  </body>
+</html>

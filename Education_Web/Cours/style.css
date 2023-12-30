@@ -1,0 +1,208 @@
+body{
+    text-align: center;
+    background-color: #F5F5F5;
+    margin-left: 0px;
+}
+#myDiv1{
+    position: absolute;
+    top: 0px;
+    background-color: #3F2305;
+    height: 100%;
+    width: 200px;
+}
+#myDiv2{
+    position: absolute;
+    top: 899px;
+    background-color: #DFD7BF;
+    height: 60px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+#User_Log{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 30%;
+}
+#myDiv2 p{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+#Log_1{
+    position: absolute;
+    height: 18%;
+    top: 10px;
+    left: 0%;
+}
+#Dash{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    height: 400px;
+    width: 200px;
+}
+#Dash table{
+    border-style: groove;
+    font-size: 28px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    text-align: left;
+}
+#House{
+    width: 20%;
+}
+.Link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.div_Dash {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+}
+.div_Dash:hover{
+    width: 190px;
+    height: 50px;
+    background-color: #734514;
+    border-right: 10px solid #dbdbdb;
+}
+iframe{
+    background-color: #F8F0E5;
+    position: absolute;
+    top: 0px;
+    width: 1703px;
+    height: 959px;
+    left: 200px;
+}
+
+#dec{
+    position: absolute;
+    width: 15%;
+    top: 20px;
+    left: 84%;
+}
+#dec:hover{
+    width: 16%;
+}
+
+#lota{
+    position: absolute;
+    top: 1300px;
+}
+
+.Tab1{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+li{
+    list-style-type: none;
+}
+
+.Tab1 h3 {
+    color: #3e3d3d;
+    font-size: 25px;
+    padding: 10px 0;
+}
+.Tab1 p {
+    color: #858080;
+    font-size: 20px;
+} 
+.Tab1 a{
+    text-decoration: none;
+    color: #afabab;
+}
+.Tab1 a:hover{
+    color: rgb(202, 155, 129);
+}
+#Logo2{
+    width: 60%;
+}
+
+
+.home-text {
+    padding: 20px;
+    
+}
+
+h2 {
+    font-size: 45px;
+    color: #333;
+}
+
+.home-text p {
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    color: #654423;
+    margin-bottom: 20px;
+}
+#home-text-1{
+    position: relative;
+    left: 450px;
+    width: 900px;
+    text-align: left;
+}
+#HTML{
+    border-style: groove;
+    border-color: #221C17;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 20%;
+}
+#css{
+    border-style: groove;
+    border-color: #221C17;
+    position: absolute;
+    top: 200px;
+    left: 1400px;
+    width: 15%;
+}
+
+.diiv{
+    background-color: #DFD7BF;
+    width: 450px;
+    height: 600px;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 12px 14px rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    
+    border-color: #585858;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    color: #654423;
+    margin-bottom: 20px;
+}
+.diiv:hover{
+    padding: 25px;
+    box-shadow: 10px 20px 25px rgba(106, 106, 106, 0.515);
+    border-color: #959595;    
+}
+#diiv1{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    
+}
+#diiv2{
+    position: absolute;
+    left: 950px;
+    top: 200px;
+    
+}
+#HTML_2{
+    position: relative;
+    width: 30%;
+}
+#css_2{
+    position: relative;
+    width: 20%;
+}

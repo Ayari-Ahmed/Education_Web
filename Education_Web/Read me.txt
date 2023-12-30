@@ -1,0 +1,16 @@
+# Web Development Learning Platform
+
+🚀 Welcome to our dynamic educational platform for aspiring web developers!
+
+## Getting Started
+
+This GitHub repository is a work-in-progress educational resource offering courses in HTML and CSS.
+We're committed to providing a comprehensive learning experience for beginners and enthusiasts, helping you build a solid foundation in web development.
+
+- Open `main.html` in your preferred web browser.
+- This Project is on develo
+- Connect with me on the e-mail:ayariayari954@gmail.com for support/Infos.
+
+Happy coding! 🌐💻
+
+credits Ayari Ahmed

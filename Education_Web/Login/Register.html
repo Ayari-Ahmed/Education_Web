@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Inscription</title>
+  </head>
+  <body>
+    <br />
+    <br />
+    <h1>Page d'Inscription Pour Les Étudiants</h1>
+    <img src="../src/logo3.png" alt="Logo" class="Log_3">
+    <a href="../main.html"><img src="../src/home.png" alt="Logo" class="Log_4"></a>
+    <form action="../Cours/Home.html" method="post">
+    <div class="myDiv" id="myDiv2">
+      <br/>
+      <i> <h1>Bienvenue sur ScholarNet</h1></i>
+      <p>Créez-vous un compte en tant qu'étudiant <br> pour accéder à la page de connexion avec votre nouveau compte.</p>
+
+      <table id="tab2">
+        <tr>
+            <tr>
+                <td>
+                    <p>Nom :</p>
+                </td>
+                
+            <td >
+                <input type="text" name="Nom" required id="Nom_Pren" > <p>|-------------------|</p>
+            </td>
+            <td width="150px">
+                <p align="left" >Prénom :</p>
+            </td>
+            
+        <td>
+            <input type="text" name="Prénom" required id="Nom_Pren">
+        </td>
+            </tr>
+          <td id="t1">
+            <p>Email :</p>
+          </td>
+          <td>
+            <input type="email" name="Nom" id="Nom" class="Input1" pattern="[a-zA-Z0-9_-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}"            placeholder="      exepmle@domaine.xy" required />
+          </td>
+          <td>
+              <p>Date Nais :</p>
+          </td>
+          <td>
+            <input type="date" name="Date" id="Date" max="2005-12-31" required>
+          </td>
+        </tr>
+        <tr>
+          <td id="t1">
+            <p>Password :</p>
+          </td>
+          <td>
+            <input type="password" name="password" id="password"  maxlength="20"  placeholder="      ********" required />
+          </td>
+          <td>
+              <p>Niveau :</p>
+          </td>
+          <td>
+              <select name="Niveau" id="Niveau" required> 
+                  <option value="" disabled selected hidden>Niveau</option>
+                  <option value="1">1ére</option>
+                  <option value="2">2éme</option>
+                  <option value="3">PFE</option>
+              </select>
+          </td>
+        </tr> 
+        
+      </table>
+<br>
+<br>
+      <button type="submit" id="Sin">S'inscrire</button>
+      <button type="reset">Annuler</button>
+      <br><br><br><br><br>
+      <label for="Login">
+        <p>Vous avez déjà un compte ? </p>
+
+    </label>
+    <label for="Login">
+      <a href="login.html" class="lien">Connectez-vous !!</a>
+    </label>
+    </div>
+</form>
+  </body>
+</html>

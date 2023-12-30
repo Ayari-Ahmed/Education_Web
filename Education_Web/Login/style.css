@@ -1,0 +1,115 @@
+body{
+    text-align: center;
+    background-color: #F8F0E5;
+}
+.Log_3{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    width: 15%;
+}
+.Log_4{
+    position: absolute;
+    left: 80%;
+    top: 0px;
+    width: 10%;
+}
+.Log_4:hover{
+    width: 13%;
+}
+.myDiv{
+    position: relative;
+	padding: 15px;
+	top: 100px;
+    left: 450px;
+	width: 900px;
+    height: 550px;
+	background-color: #d4d3d390;
+	border-radius: 20px;	
+	box-shadow:  0 14px 28px rgba(81, 81, 81, 0.25), 0 10px 10px rgba(54, 54, 54, 0.22);
+}
+#myDiv2{
+    height: 600px;
+}
+.myDiv h1 {
+    font-size: 40px;
+    color: #794d34;
+}
+.myDiv p {
+    font-size: 20px;
+    color: #978b8b;
+    font-family: "Inter", sans-serif;
+}
+input[type="password"],input[type="email"],input[type="number"],input[type="text"] {
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+select , input[type="date"]{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#t1 {
+   width: 250px; 
+}
+#Rem{
+    padding: 10px;
+    
+}
+button[type="submit"]{
+    position: absolute;
+    left: 230px;
+    padding: 25px;
+    font-size: 20px;
+    
+    border: none;
+    border-radius: 20px;
+    background-color:  #685034;
+    color: azure;
+}
+
+button[type="submit"]:hover{
+    background-color: #DAC0A3;
+    padding: 30px;
+}
+#Sin{
+    width: 170px ;
+}
+button[type="reset"]{
+    position: absolute;
+    left: 450px;
+    padding: 25px;
+    font-size: 20px;
+    width: 170px ;
+    border: none;
+    border-radius: 20px;
+    background-color:  #774242;
+    color: azure;
+}
+button[type="reset"]:hover{
+    background-color: #daa3a3;
+    padding: 30px;
+}
+.lien{
+    text-decoration: none;
+    color: #503c20;
+    font-size: 21px;
+}
+.lien:hover {
+    
+    color: #9e8768;
+    font-size: 23px;
+}
+#Nom_Pren{
+    width: 200px;
+    float: left;
+}
